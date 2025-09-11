@@ -1,0 +1,52 @@
+[{
+	"resource": "/d:/72 projects of python/study-helper-ai/my-study-helper/src/components/FloatingChatbot/ConversationModeOverlay.jsx",
+	"owner": "eslint3",
+	"code": {
+		"value": "no-unused-vars",
+		"target": {
+			"$mid": 1,
+			"path": "/docs/latest/rules/no-unused-vars",
+			"scheme": "https",
+			"authority": "eslint.org"
+		}
+	},
+	"severity": 8,
+	"message": "'useState' is defined but never used. Allowed unused vars must match /^[A-Z_]/u.",
+	"source": "eslint",
+	"startLineNumber": 2,
+	"startColumn": 49,
+	"endLineNumber": 2,
+	"endColumn": 57,
+	"tags": [
+		1
+	],
+	"origin": "extHost1"
+}]
+
+[{
+	"resource": "/d:/72 projects of python/study-helper-ai/my-study-helper/src/context/ChatContext.jsx",
+	"owner": "eslint3",
+	"code": "react-refresh/only-export-components",
+	"severity": 8,
+	"message": "Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components.",
+	"source": "eslint",
+	"startLineNumber": 372,
+	"startColumn": 14,
+	"endLineNumber": 372,
+	"endColumn": 21,
+	"origin": "extHost1"
+}]
+
+[{
+	"resource": "/d:/72 projects of python/study-helper-ai/my-study-helper/src/context/StudyContext.jsx",
+	"owner": "eslint3",
+	"code": "react-refresh/only-export-components",
+	"severity": 8,
+	"message": "Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components.",
+	"source": "eslint",
+	"startLineNumber": 144,
+	"startColumn": 14,
+	"endLineNumber": 144,
+	"endColumn": 22,
+	"origin": "extHost1"
+}]
