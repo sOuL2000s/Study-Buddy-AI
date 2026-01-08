@@ -2990,6 +2990,8 @@
         }
 
         async function callGeminiAPI(payload, personalityName = "Standard") {
+            
+            const PROXY_URL = '/.netlify/functions/gemini-proxy'; 
             const selectedPersonalityObj = personalities.find(p => p.name === personalityName);
             const contentsToSend = JSON.parse(JSON.stringify(payload.contents)); // Deep clone history
             
